@@ -5,7 +5,6 @@ import pyttsx3
 import pywhatkit as kt
 
 def assistant():
-    import pyttsx3
 
     engine = pyttsx3.init()
     engine.setProperty("rate", 150)
