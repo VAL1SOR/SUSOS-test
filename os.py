@@ -1,4 +1,3 @@
-import assistant
 import webbrowser
 import time
 import os
@@ -24,6 +23,3 @@ while True:
         webbrowser.open_new_tab(link)
     elif command == "update":
         os.system("pip install --upgrade https://github.com/VAL1SOR/SUSOS-test.git")
-    elif command == "assistant":
-        os.system("cls")
-        assistant.assistant()
